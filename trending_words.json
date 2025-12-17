@@ -2,76 +2,76 @@
   {
     "rank": 1,
     "word": "AI",
-    "count": 16
+    "count": 19
   },
   {
     "rank": 2,
-    "word": "エンジニア",
-    "count": 4
+    "word": "開発",
+    "count": 7
   },
   {
     "rank": 3,
-    "word": "検索",
-    "count": 4
+    "word": "Blog",
+    "count": 6
   },
   {
     "rank": 4,
-    "word": "エンジニアブログ",
-    "count": 4
+    "word": "生成",
+    "count": 5
   },
   {
     "rank": 5,
-    "word": "音声",
+    "word": "GitHub",
     "count": 4
   },
   {
     "rank": 6,
-    "word": "個人",
-    "count": 3
+    "word": "Tech",
+    "count": 4
   },
   {
     "rank": 7,
-    "word": "生成",
+    "word": "活用",
     "count": 3
   },
   {
     "rank": 8,
-    "word": "Linux",
+    "word": "エンジニア",
     "count": 3
   },
   {
     "rank": 9,
-    "word": "カミナシ",
+    "word": "日本経済新聞",
     "count": 3
   },
   {
     "rank": 10,
-    "word": "システム",
+    "word": "公開",
     "count": 3
   },
   {
     "rank": 11,
-    "word": "Tech",
+    "word": "脆弱",
     "count": 3
   },
   {
     "rank": 12,
-    "word": "Blog",
+    "word": "時代",
     "count": 3
   },
   {
     "rank": 13,
-    "word": "コード",
-    "count": 3
+    "word": "Meta",
+    "count": 2
   },
   {
     "rank": 14,
-    "word": "デバイス",
-    "count": 3
+    "word": "ChatGPT",
+    "count": 2
   },
   {
     "rank": 15,
-    "word": "開発",
+    "word": "for",
     "count": 2
   }
 ]

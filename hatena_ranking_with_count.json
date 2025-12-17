@@ -3,318 +3,474 @@
     "title": "高木浩光＠自宅の日記 - 知財検討会にまで及ぶAI規制の混迷──処遇AIと生成AIを混ぜると、全部壊れる",
     "link": "http://takagi-hiromitsu.jp/diary/20251216.html",
     "hatebu_count": 251,
-    "published_date": "2025/12/17 06:26"
+    "published_date": "2025/12/17 06:26",
+    "char_count": 36,
+    "status": "成功",
+    "reading_time": 1
   },
   {
     "title": "サーマルプリンタを子育てに活用してみた - m1104m Blog",
     "link": "https://m1104m.hatenablog.com/entry/2025/12/15/132956",
     "hatebu_count": 213,
-    "published_date": "2025/12/16 19:18"
+    "published_date": "2025/12/16 19:18",
+    "char_count": 1787,
+    "status": "成功",
+    "reading_time": 4
   },
   {
     "title": "画像圧縮するベストな方法（2025） - Qiita",
     "link": "https://qiita.com/fukushima1981/items/deaf8e97df2d1b9d6865",
     "hatebu_count": 127,
-    "published_date": "2025/12/16 03:55"
+    "published_date": "2025/12/16 03:55",
+    "char_count": 6437,
+    "status": "成功",
+    "reading_time": 16
   },
   {
     "title": "AntigravityとGemini 3でアプリ開発したら、めちゃくちゃ効率的だった話",
     "link": "https://blog.usize-tech.com/antigravity-gemini3-app-development/",
     "hatebu_count": 88,
-    "published_date": "2025/12/17 08:53"
+    "published_date": "2025/12/17 08:53",
+    "char_count": 6215,
+    "status": "成功",
+    "reading_time": 16
   },
   {
     "title": "中国発の詐欺広告に甘いMeta、数千億円規模の収入優先か　ザッカーバーグCEO関与の疑いも",
     "link": "https://www.itmedia.co.jp/news/articles/2512/16/news119.html",
     "hatebu_count": 144,
-    "published_date": "2025/12/16 18:00"
+    "published_date": "2025/12/16 18:00",
+    "char_count": 2563,
+    "status": "成功",
+    "reading_time": 6
   },
   {
     "title": "Obsidianを「ChatGPTのナレッジ保管庫」にしよう｜ひつじ",
     "link": "https://note.com/hituji1234/n/nf82e2fa55f28",
     "hatebu_count": 266,
-    "published_date": "2025/12/16 13:34"
+    "published_date": "2025/12/16 13:34",
+    "char_count": 4545,
+    "status": "成功",
+    "reading_time": 11
   },
   {
     "title": "「要件通り＝正解ではない」新卒エンジニアが学んだ、\"解くべき問い\"のスコープ定義 - Speee DEVELOPER BLOG",
     "link": "https://tech.speee.jp/entry/bizops-solve-the-real-issue",
     "hatebu_count": 76,
-    "published_date": "2025/12/17 11:34"
+    "published_date": "2025/12/17 11:34",
+    "char_count": 3145,
+    "status": "成功",
+    "reading_time": 8
   },
   {
     "title": "Pricing changes for GitHub Actions",
     "link": "https://resources.github.com/actions/2026-pricing-changes-for-github-actions/",
     "hatebu_count": 68,
-    "published_date": "2025/12/17 04:35"
+    "published_date": "2025/12/17 04:35",
+    "char_count": 13098,
+    "status": "成功",
+    "reading_time": 33
   },
   {
     "title": "【c++】二分探索より速いisqrtを実装する",
     "link": "https://trap.jp/post/2728/",
     "hatebu_count": 61,
-    "published_date": "2025/12/16 23:56"
+    "published_date": "2025/12/16 23:56",
+    "char_count": 13109,
+    "status": "成功",
+    "reading_time": 33
   },
   {
     "title": "仕事や生活する上で「取得しといてよかった資格」って何？「役に立ったのは電気工事士2種」「バイオ技術者認定試験 はどこへ行っても理解が得られない」",
     "link": "https://togetter.com/li/2639731",
     "hatebu_count": 50,
-    "published_date": "2025/12/17 09:33"
+    "published_date": "2025/12/17 09:33",
+    "char_count": 2942,
+    "status": "成功",
+    "reading_time": 7
   },
   {
     "title": "GitHub Japanに入社しました | おそらくはそれさえも平凡な日々",
     "link": "https://songmu.jp/riji/entry/2025-12-16-joining-github.html",
     "hatebu_count": 162,
-    "published_date": "2025/12/16 23:43"
+    "published_date": "2025/12/16 23:43",
+    "char_count": 1699,
+    "status": "成功",
+    "reading_time": 4
   },
   {
     "title": "言語化が下手な人は5つのタイプに分けられる｜すてぃお",
     "link": "https://note.com/suthio/n/n2555d51f8f1b",
     "hatebu_count": 1039,
-    "published_date": "2025/12/16 09:54"
+    "published_date": "2025/12/16 09:54",
+    "char_count": 8239,
+    "status": "成功",
+    "reading_time": 21
   },
   {
     "title": "RAGで厄介なExcel文書を意味構造JSON化するOSSライブラリを作りました",
     "link": "https://zenn.dev/harumikun/articles/42e9cd55ab5960",
     "hatebu_count": 53,
-    "published_date": "2025/12/15 22:02"
+    "published_date": "2025/12/15 22:02",
+    "char_count": 10659,
+    "status": "成功",
+    "reading_time": 27
   },
   {
     "title": "Go のエラーにコンテキストを持たせていい感じにロギングする - カミナシ エンジニアブログ",
     "link": "https://kaminashi-developer.hatenablog.jp/entry/2025/12/17/080000",
     "hatebu_count": 48,
-    "published_date": "2025/12/17 08:30"
+    "published_date": "2025/12/17 08:30",
+    "char_count": 8763,
+    "status": "成功",
+    "reading_time": 22
   },
   {
     "title": "X、2026年1月の規約更新で「Twitter」名称の権利管理を強化",
     "link": "https://www.itmedia.co.jp/news/articles/2512/17/news071.html",
     "hatebu_count": 38,
-    "published_date": "2025/12/17 10:07"
+    "published_date": "2025/12/17 10:07",
+    "char_count": 2637,
+    "status": "成功",
+    "reading_time": 7
   },
   {
     "title": "AIデータセンター、50万人分の水がぶ飲み　米国で建設急増が招く枯渇 - 日本経済新聞",
     "link": "https://www.nikkei.com/article/DGXZQOUF2705X0X21C25A1000000/",
     "hatebu_count": 36,
-    "published_date": "2025/12/17 04:27"
+    "published_date": "2025/12/17 04:27",
+    "char_count": 1335,
+    "status": "成功",
+    "reading_time": 3
   },
   {
     "title": "グーグルのAIブラウザ「Disco」　複雑な作業をAIが支援",
     "link": "https://www.watch.impress.co.jp/docs/news/2071584.html",
     "hatebu_count": 213,
-    "published_date": "2025/12/16 13:14"
+    "published_date": "2025/12/16 13:14",
+    "char_count": 689,
+    "status": "成功",
+    "reading_time": 2
   },
   {
     "title": "いろんな音が混ざった動画や音声から目的の音だけを分離できるAI「SAM Audio」をMetaが公開",
     "link": "https://gigazine.net/news/20251217-meta-sam-audio-ai/",
     "hatebu_count": 20,
-    "published_date": "2025/12/17 12:50"
+    "published_date": "2025/12/17 12:50",
+    "char_count": 379,
+    "status": "成功",
+    "reading_time": 1
   },
   {
     "title": "JAXAとの共同研究で地形まで再現した月面探索シミュレータ「REAL MOON」",
     "link": "https://pc.watch.impress.co.jp/docs/news/2071940.html",
     "hatebu_count": 16,
-    "published_date": "2025/12/17 13:35"
+    "published_date": "2025/12/17 13:35",
+    "char_count": 893,
+    "status": "成功",
+    "reading_time": 2
   },
   {
     "title": "【笠原一輝のユビキタス情報局】 ジャストシステムに聞く、Arm版ATOKの正体。NPUでもっとかしこくなる未来も",
     "link": "https://pc.watch.impress.co.jp/docs/column/ubiq/2071850.html",
     "hatebu_count": 24,
-    "published_date": "2025/12/17 08:39"
+    "published_date": "2025/12/17 08:39",
+    "char_count": 9395,
+    "status": "成功",
+    "reading_time": 23
   },
   {
     "title": "OpenAI、「ChatGPT Images 1.5」公開　生成速度4倍で「Nano Banana」に対抗",
     "link": "https://www.itmedia.co.jp/aiplus/articles/2512/17/news069.html",
     "hatebu_count": 22,
-    "published_date": "2025/12/17 10:27"
+    "published_date": "2025/12/17 10:27",
+    "char_count": 3169,
+    "status": "成功",
+    "reading_time": 8
   },
   {
     "title": "2026年、日本のソフトウェア開発を変える5つの潮流 | gihyo.jp",
     "link": "https://gihyo.jp/article/2025/12/5-trends-that-transform-software-development-in-japan-2026",
     "hatebu_count": 65,
-    "published_date": "2025/12/16 16:37"
+    "published_date": "2025/12/16 16:37",
+    "char_count": 4006,
+    "status": "成功",
+    "reading_time": 10
   },
   {
     "title": "マッキンゼーやアクセンチュア、進む人員削減　「AIが3割代替」 - 日本経済新聞",
     "link": "https://www.nikkei.com/article/DGXZQOGN16CL90W5A211C2000000/",
     "hatebu_count": 25,
-    "published_date": "2025/12/17 07:41"
+    "published_date": "2025/12/17 07:41",
+    "char_count": 1296,
+    "status": "成功",
+    "reading_time": 3
   },
   {
     "title": "Node.js × Docker ベースイメージをどうやって選ぶか - iimon TECH BLOG",
     "link": "https://tech.iimon.co.jp/entry/2025/12/17",
     "hatebu_count": 26,
-    "published_date": "2025/12/17 08:35"
+    "published_date": "2025/12/17 08:35",
+    "char_count": 3505,
+    "status": "成功",
+    "reading_time": 9
   },
   {
     "title": "【アドベントカレンダー2025】DuckDBで変わる繁忙期対策のログ分析とサイジング - 1時間の1%に潜む36秒のリスク- - ぐるなびをちょっと良くするエンジニアブログ",
     "link": "https://developers.gnavi.co.jp/entry/adventcalendar-251217-1/",
     "hatebu_count": 14,
-    "published_date": "2025/12/17 12:20"
+    "published_date": "2025/12/17 12:20",
+    "char_count": 8923,
+    "status": "成功",
+    "reading_time": 22
   },
   {
     "title": "No Graphics API — Sebastian Aaltonen",
     "link": "https://www.sebastianaaltonen.com/blog/no-graphics-api",
     "hatebu_count": 11,
-    "published_date": "2025/12/17 10:45"
+    "published_date": "2025/12/17 10:45",
+    "char_count": 124469,
+    "status": "成功",
+    "reading_time": 311
   },
   {
     "title": "site2skill: どんなサイトでもClaude Skills化するツールを作った",
     "link": "https://blog.lai.so/site2skill/",
     "hatebu_count": 88,
-    "published_date": "2025/12/16 20:53"
+    "published_date": "2025/12/16 20:53",
+    "char_count": 9982,
+    "status": "成功",
+    "reading_time": 25
   },
   {
     "title": "Process Managerパターンで複雑な業務フローを見通しよく実装する - enechain Tech Blog",
     "link": "https://techblog.enechain.com/entry/process-manager",
     "hatebu_count": 13,
-    "published_date": "2025/12/17 12:13"
+    "published_date": "2025/12/17 12:13",
+    "char_count": 10739,
+    "status": "成功",
+    "reading_time": 27
   },
   {
     "title": "人が増えても遅くならないゲーム開発をするためにUnityエンジニアが実践したことまとめ - CORETECH ENGINEER BLOG",
     "link": "https://blog.sge-coretech.com/entry/2025/12/16/115322",
     "hatebu_count": 33,
-    "published_date": "2025/12/16 16:23"
+    "published_date": "2025/12/16 16:23",
+    "char_count": 0,
+    "status": "取得失敗"
   },
   {
     "title": "何があった？ Amazon Payによる「スマホアプリ納付」、2026年1月3日をもって終了へ【やじうまWatch】",
     "link": "https://internet.watch.impress.co.jp/docs/yajiuma/2071925.html",
     "hatebu_count": 8,
-    "published_date": "2025/12/17 12:07"
+    "published_date": "2025/12/17 12:07",
+    "char_count": 782,
+    "status": "成功",
+    "reading_time": 2
   },
   {
     "title": "余裕だったはずの採番が最大値に到達してしまった話 - Qiita",
     "link": "https://qiita.com/yaju/items/39ec2f28daafe2089574",
     "hatebu_count": 10,
-    "published_date": "2025/12/17 09:42"
+    "published_date": "2025/12/17 09:42",
+    "char_count": 2276,
+    "status": "成功",
+    "reading_time": 6
   },
   {
     "title": "アスクル社長が語ったサイバー攻撃の内幕　なぜ防げなかったのか - 日本経済新聞",
     "link": "https://www.nikkei.com/article/DGXZQOUC153HZ0V11C25A2000000/",
     "hatebu_count": 12,
-    "published_date": "2025/12/17 13:24"
+    "published_date": "2025/12/17 13:24",
+    "char_count": 1479,
+    "status": "成功",
+    "reading_time": 4
   },
   {
     "title": "DDDでシステムを“壊さずに”変革する考え方",
     "link": "https://zenn.dev/lincwell_inc/articles/78756cc49e7bca",
     "hatebu_count": 29,
-    "published_date": "2025/12/16 15:43"
+    "published_date": "2025/12/16 15:43",
+    "char_count": 3095,
+    "status": "成功",
+    "reading_time": 8
   },
   {
     "title": "セキュリティAIエージェントによる脆弱性診断を試してみました - ANDPAD Tech Blog",
     "link": "https://tech.andpad.co.jp/entry/2025/12/17/100000",
     "hatebu_count": 20,
-    "published_date": "2025/12/17 10:14"
+    "published_date": "2025/12/17 10:14",
+    "char_count": 3350,
+    "status": "成功",
+    "reading_time": 8
   },
   {
     "title": "素朴な直感ベースで話してるとき、正しい「っぽさ」に自分も騙されてるんだよね - フジイユウジ::ドットネット",
     "link": "https://fujii-yuji.net/2025/12/17/083732",
     "hatebu_count": 16,
-    "published_date": "2025/12/17 09:53"
+    "published_date": "2025/12/17 09:53",
+    "char_count": 2769,
+    "status": "成功",
+    "reading_time": 7
   },
   {
     "title": "MINISFORUM、MS-S1 MAXを4台連結して“非蒸留”のDeepSeek-R1 671Bを駆動",
     "link": "https://pc.watch.impress.co.jp/docs/news/2071905.html",
     "hatebu_count": 12,
-    "published_date": "2025/12/17 11:41"
+    "published_date": "2025/12/17 11:41",
+    "char_count": 839,
+    "status": "成功",
+    "reading_time": 2
   },
   {
     "title": "太字で見る 三宅香帆の言語化能力｜AIと大喜利する",
     "link": "https://note.com/kyunkyun_p_d/n/n9cc45ed3d74b",
     "hatebu_count": 13,
-    "published_date": "2025/12/17 14:18"
+    "published_date": "2025/12/17 14:18",
+    "char_count": 8604,
+    "status": "成功",
+    "reading_time": 22
   },
   {
     "title": "人手アノテーションがつらかったので、Claude Codeで専用ツールを1日で自作した話 - Qiita",
     "link": "https://qiita.com/yamauchi-h3/items/4137b58d18a121d56ba8",
     "hatebu_count": 24,
-    "published_date": "2025/12/17 09:21"
+    "published_date": "2025/12/17 09:21",
+    "char_count": 3750,
+    "status": "成功",
+    "reading_time": 9
   },
   {
     "title": "Amazon VPC からパブリックサブネットを無くしたい！ - サーバーワークスエンジニアブログ",
     "link": "https://blog.serverworks.co.jp/no-public-subnet",
     "hatebu_count": 13,
-    "published_date": "2025/12/15 12:41"
+    "published_date": "2025/12/15 12:41",
+    "char_count": 2182,
+    "status": "成功",
+    "reading_time": 5
   },
   {
     "title": "第3回：自社ブランドをなりすましから守るDMARC ポリシー”reject”の運用【顧客を守るメール管理者のためのDMARCポリシー引き上げガイド】",
     "link": "https://internet.watch.impress.co.jp/docs/column/dmarc/2064129.html",
     "hatebu_count": 17,
-    "published_date": "2025/12/17 08:05"
+    "published_date": "2025/12/17 08:05",
+    "char_count": 6127,
+    "status": "成功",
+    "reading_time": 15
   },
   {
     "title": "コミット数2倍でもレビュー品質を維持！AI時代のコードレビューフロー再設計",
     "link": "https://developers.cyberagent.co.jp/blog/archives/60882/",
     "hatebu_count": 4,
-    "published_date": "2025/12/17 11:41"
+    "published_date": "2025/12/17 11:41",
+    "char_count": 7279,
+    "status": "成功",
+    "reading_time": 18
   },
   {
     "title": "2026年の開発を気持ちよく始めるためのiOSDC Japan 2025セッションまとめ - Mirrativ Tech Blog",
     "link": "https://tech.mirrativ.stream/entry/2025/12/17/100000",
     "hatebu_count": 18,
-    "published_date": "2025/12/17 10:51"
+    "published_date": "2025/12/17 10:51",
+    "char_count": 2762,
+    "status": "成功",
+    "reading_time": 7
   },
   {
     "title": "Coming soon: Simpler pricing and a better experience for GitHub Actions - GitHub Changelog",
     "link": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/",
     "hatebu_count": 4,
-    "published_date": "2025/12/17 09:47"
+    "published_date": "2025/12/17 09:47",
+    "char_count": 6290,
+    "status": "成功",
+    "reading_time": 16
   },
   {
     "title": "このChrome「拡張機能」を今すぐ削除せよ、生成AIとの会話を収集し第三者に販売 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
     "link": "https://forbesjapan.com/articles/detail/87234",
     "hatebu_count": 4,
-    "published_date": "2025/12/17 10:09"
+    "published_date": "2025/12/17 10:09",
+    "char_count": 2983,
+    "status": "成功",
+    "reading_time": 7
   },
   {
     "title": "mairuでつくるクレデンシャルレス開発環境 / Credential-less development environment using Mailru",
     "link": "https://speakerdeck.com/mirakui/credential-less-development-environment-using-mailru",
     "hatebu_count": 18,
-    "published_date": "2025/12/16 23:04"
+    "published_date": "2025/12/16 23:04",
+    "char_count": 6,
+    "status": "成功",
+    "reading_time": 1
   },
   {
     "title": "Google Cloud資格全冠達成のリアル！学習のコツと苦労点【社内座談会レポート】 - NTT docomo Business Engineers' Blog",
     "link": "https://engineers.ntt.com/entry/20251217-gcp-cert-roundtable/entry",
     "hatebu_count": 13,
-    "published_date": "2025/12/17 09:40"
+    "published_date": "2025/12/17 09:40",
+    "char_count": 5089,
+    "status": "成功",
+    "reading_time": 13
   },
   {
     "title": "AIチョットニガテなわたしが考える、AI時代のPdL・EMの在り方 - freee Developers Hub",
     "link": "https://developers.freee.co.jp/entry/pdl-em-role-in-ai-age",
     "hatebu_count": 9,
-    "published_date": "2025/12/17 09:03"
+    "published_date": "2025/12/17 09:03",
+    "char_count": 4839,
+    "status": "成功",
+    "reading_time": 12
   },
   {
     "title": "「Google Chrome」に脆弱性、「WebGPU」の解放後メモリ利用と「V8」の境界外読み書き／修正版が公開、Windows環境ではv143.0.7499.146/.147が展開中",
     "link": "https://forest.watch.impress.co.jp/docs/news/2071882.html",
     "hatebu_count": 4,
-    "published_date": "2025/12/17 11:34"
+    "published_date": "2025/12/17 11:34",
+    "char_count": 766,
+    "status": "成功",
+    "reading_time": 2
   },
   {
     "title": "車両開発者は日本カー・オブ・ザ・イヤーをどう意識している？ - webCG",
     "link": "https://www.webcg.net/articles/-/53093",
     "hatebu_count": 6,
-    "published_date": "2025/12/16 07:58"
+    "published_date": "2025/12/16 07:58",
+    "char_count": 2779,
+    "status": "成功",
+    "reading_time": 7
   },
   {
     "title": "人が増えても遅くならないゲーム開発をするためにUnityエンジニアが実践したことまとめ - CORETECH ENGINEER BLOG",
     "link": "https://blog.sge-coretech.com/entry/2025/12/16/115322",
     "hatebu_count": 33,
-    "published_date": "2025/12/16 16:23"
+    "published_date": "2025/12/16 16:23",
+    "char_count": 20656,
+    "status": "成功",
+    "reading_time": 52
   },
   {
     "title": "セキュリティAIエージェントによる脆弱性診断を試してみました - ANDPAD Tech Blog",
     "link": "https://tech.andpad.co.jp/entry/2025/12/17/100000",
     "hatebu_count": 20,
-    "published_date": "2025/12/17 10:14"
+    "published_date": "2025/12/17 10:14",
+    "char_count": 3350,
+    "status": "成功",
+    "reading_time": 8
   },
   {
     "title": "AIチョットニガテなわたしが考える、AI時代のPdL・EMの在り方 - freee Developers Hub",
     "link": "https://developers.freee.co.jp/entry/pdl-em-role-in-ai-age",
     "hatebu_count": 9,
-    "published_date": "2025/12/17 09:03"
+    "published_date": "2025/12/17 09:03",
+    "char_count": 0,
+    "status": "取得失敗"
   },
   {
     "title": "ベテランプログラマは生成AIをどう活用しているのか？そして初学者は生成AIをどう活用すべきか？ - give IT a try",
     "link": "https://blog.jnito.com/entry/2025/12/15/073604",
     "hatebu_count": 437,
-    "published_date": "2025/12/16 07:16"
+    "published_date": "2025/12/16 07:16",
+    "char_count": 0,
+    "status": "取得失敗"
   }
 ]
