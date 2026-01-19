@@ -3,6 +3,55 @@ from janome.tokenizer import Tokenizer
 from collections import Counter
 import re
 
+# IT技術用語辞書
+TECH_KEYWORDS = {
+    # プログラミング言語
+    'Python', 'JavaScript', 'TypeScript', 'Java', 'Go', 'Rust', 'C++', 'C#', 'PHP', 
+    'Ruby', 'Swift', 'Kotlin', 'Dart', 'Scala', 'R', 'SQL',
+    
+    # フロントエンド
+    'React', 'Vue', 'Angular', 'Next.js', 'Nuxt', 'Svelte', 'jQuery', 'HTML', 'CSS',
+    'Tailwind', 'Bootstrap', 'Webpack', 'Vite',
+    
+    # バックエンド
+    'Node.js', 'Express', 'Django', 'Flask', 'FastAPI', 'Spring', 'Rails',
+    'Laravel', 'ASP.NET',
+    
+    # インフラ・クラウド
+    'Docker', 'Kubernetes', 'k8s', 'AWS', 'GCP', 'Azure', 'Firebase', 
+    'Vercel', 'Netlify', 'Heroku', 'Terraform', 'Ansible',
+    
+    # データベース
+    'MySQL', 'PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch', 'DynamoDB',
+    'Oracle', 'SQLite', 'MariaDB',
+    
+    # AI・機械学習
+    'AI', 'ChatGPT', 'Claude', 'Gemini', 'GPT', 'LLM', 'TensorFlow', 'PyTorch',
+    '機械学習', 'ディープラーニング', '深層学習', '自然言語処理', 'NLP',
+    
+    # セキュリティ
+    'セキュリティ', '脆弱性', 'XSS', 'CSRF', 'SQL', 'OAuth', 'JWT', 'HTTPS',
+    
+    # 開発ツール
+    'GitHub', 'GitLab', 'Git', 'VSCode', 'IntelliJ', 'Vim', 'Docker', 'CI/CD',
+    'GitHub Actions', 'Jenkins',
+    
+    # Web技術
+    'API', 'REST', 'GraphQL', 'WebSocket', 'HTTP', 'gRPC', 'JSON', 'XML',
+    
+    # モバイル
+    'iOS', 'Android', 'Flutter', 'React Native', 'SwiftUI',
+    
+    # その他技術トレンド
+    'マイクロサービス', 'サーバーレス', 'コンテナ', 'アジャイル', 'DevOps',
+    'CI', 'CD', 'テスト駆動開発', 'TDD', 'クラウドネイティブ', 'Edge',
+    
+    # 企業・サービス名
+    'Google', 'Microsoft', 'Apple', 'Amazon', 'Meta', 'Twitter', 'X',
+    'OpenAI', 'Anthropic', 'Notion', 'Slack', 'Discord', 'Figma',
+    'Cloudflare', 'Stripe'
+}
+
 def load_json(filename="hatena_ranking.json"):
     """
     JSONファイルを読み込む
@@ -17,51 +66,33 @@ def load_json(filename="hatena_ranking.json"):
         print(f"❌ エラー: {filename} の形式が正しくありません")
         return []
 
-def extract_keywords(articles):
+def extract_tech_keywords(articles):
     """
-    記事タイトルから名詞キーワードを抽出
+    記事タイトルから技術キーワードのみを抽出
     """
     tokenizer = Tokenizer()
     keywords = []
     
-    # ストップワード（除外する単語）- 強化版
-    stop_words = {
-        # 一般的な語
-        "こと", "これ", "それ", "もの", "ため", "よう", "とき", 
-        "ところ", "みたい", "する", "なる", "ある", "いる", "できる",
-        "さん", "つ", "の", "記事", "紹介", "解説", "まとめ", "方法",
-        "場合", "理由", "話", "内容", "結果", "情報", "サービス",
-        # 曖昧な語
-        "たち", "可能", "サイト", "ブログ", "エントリ", "投稿",
-        "世界", "今回", "最近", "自分", "みんな", "人", "方",
-        # プラットフォーム名（Qiitaなど除外したい場合）
-        "Qiita", "BLOG", "ブログ"
-    }
-    
-    print("\n🔍 キーワード抽出中...\n")
+    print("\n🔍 技術キーワード抽出中...\n")
     
     for article in articles:
         title = article.get("title", "")
         
-        # 形態素解析
+        # まずタイトル全体から技術用語辞書に完全一致するものを探す
+        for tech_word in TECH_KEYWORDS:
+            # 大文字小文字を区別せずに検索
+            if tech_word.lower() in title.lower() or tech_word in title:
+                keywords.append(tech_word)
+        
+        # 次に形態素解析で名詞を抽出し、技術用語辞書と照合
         for token in tokenizer.tokenize(title):
-            # トークン情報を分割
             parts = str(token).split("\t")
             if len(parts) >= 2:
-                word = parts[0]  # 単語
-                pos = parts[1].split(",")[0]  # 品詞
+                word = parts[0]
+                pos = parts[1].split(",")[0]
                 
-                # フィルタリング条件
-                # 1. 名詞であること
-                # 2. 2文字以上
-                # 3. ストップワードでない
-                # 4. 数字だけではない
-                # 5. 記号を含まない
-                if (pos == "名詞" and 
-                    len(word) >= 2 and 
-                    word not in stop_words and
-                    not word.isdigit() and
-                    not re.search(r'[!-/:-@[-`{-~]', word)):
+                # 名詞で、技術用語辞書に含まれるもの
+                if pos == "名詞" and word in TECH_KEYWORDS:
                     keywords.append(word)
     
     return keywords
@@ -73,19 +104,19 @@ def analyze_trending_words(keywords, top_n=15):
     counter = Counter(keywords)
     ranking = counter.most_common(top_n)
     
-    print(f"🔥🔥🔥 急上昇ワード TOP{top_n} 🔥🔥🔥\n")
-    print("-" * 50)
+    print(f"🔥🔥🔥 IT技術トレンドワード TOP{top_n} 🔥🔥🔥\n")
+    print("-" * 60)
     
     if not ranking:
-        print("⚠️  キーワードが見つかりませんでした")
+        print("⚠️  技術キーワードが見つかりませんでした")
         return []
     
     for rank, (word, count) in enumerate(ranking, 1):
         # ビジュアル的に見やすく
-        bar = "█" * count
+        bar = "█" * min(count, 20)  # 最大20文字
         print(f"{rank:2d}位: {word:20s} {bar} ({count}回)")
     
-    print("-" * 50)
+    print("-" * 60)
     
     return ranking
 
@@ -105,9 +136,9 @@ def analyze_from_json(json_filename="hatena_ranking.json", top_n=15):
     """
     JSONファイルから読み込んで分析（外部から呼び出し用）
     """
-    print("\n" + "=" * 50)
-    print("📊 急上昇ワード分析開始")
-    print("=" * 50)
+    print("\n" + "=" * 60)
+    print("📊 IT技術トレンドワード分析開始")
+    print("=" * 60)
     
     # JSONファイルを読み込み
     articles = load_json(json_filename)
@@ -118,10 +149,10 @@ def analyze_from_json(json_filename="hatena_ranking.json", top_n=15):
     
     print(f"\n📚 {len(articles)}件の記事を分析します")
     
-    # キーワード抽出
-    keywords = extract_keywords(articles)
+    # 技術キーワード抽出
+    keywords = extract_tech_keywords(articles)
     
-    print(f"✅ {len(keywords)}個のキーワードを抽出しました\n")
+    print(f"✅ {len(keywords)}個の技術キーワードを抽出しました\n")
     
     # 急上昇ワードランキング
     ranking = analyze_trending_words(keywords, top_n=top_n)

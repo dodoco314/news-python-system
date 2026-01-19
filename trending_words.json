@@ -2,76 +2,76 @@
   {
     "rank": 1,
     "word": "AI",
-    "count": 11
+    "count": 37
   },
   {
     "rank": 2,
-    "word": "開発",
-    "count": 10
+    "word": "R",
+    "count": 22
   },
   {
     "rank": 3,
-    "word": "エンジニア",
-    "count": 6
+    "word": "Claude",
+    "count": 8
   },
   {
     "rank": 4,
-    "word": "Web",
-    "count": 5
+    "word": "GitHub",
+    "count": 7
   },
   {
     "rank": 5,
-    "word": "Google",
-    "count": 5
+    "word": "Git",
+    "count": 4
   },
   {
     "rank": 6,
-    "word": "駆動",
-    "count": 5
+    "word": "セキュリティ",
+    "count": 4
   },
   {
     "rank": 7,
-    "word": "言語",
+    "word": "Rust",
     "count": 4
   },
   {
     "rank": 8,
-    "word": "時代",
+    "word": "CI",
     "count": 4
   },
   {
     "rank": 9,
-    "word": "ビジネス",
-    "count": 4
+    "word": "Twitter",
+    "count": 2
   },
   {
     "rank": 10,
-    "word": "中国",
-    "count": 3
+    "word": "Anthropic",
+    "count": 2
   },
   {
     "rank": 11,
-    "word": "IT",
-    "count": 3
+    "word": "Cloudflare",
+    "count": 2
   },
   {
     "rank": 12,
-    "word": "年版",
-    "count": 3
+    "word": "Docker",
+    "count": 2
   },
   {
     "rank": 13,
-    "word": "Code",
-    "count": 3
+    "word": "Google",
+    "count": 2
   },
   {
     "rank": 14,
-    "word": "成功",
-    "count": 3
+    "word": "CD",
+    "count": 2
   },
   {
     "rank": 15,
-    "word": "転職",
-    "count": 3
+    "word": "AWS",
+    "count": 2
   }
 ]
